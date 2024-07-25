@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ribeye+Marrow&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #5C2513;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+nav{
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav .logo img{
+    width: 208px;
+    height: 191px;
+}
+
+nav .links{
+    display: flex;
+    gap: 37px;
+    margin-top: 64px;
+}
+
+nav .links a{
+    color: white;
+    text-decoration: none;
+    gap: 37px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 70px;
+    position: relative;
+}
+
+.main_left{
+    margin-left: 40px;
+    padding-left: 250px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.heading{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    width: 462px;
+    height: 310px;
+    font-size: 84px;
+    margin-top: 40px;
+}
+
+.description{
+    font-family: "Ribeye Marrow";
+    color: white;
+    margin-left: 6px;
+}
+
+.btn1{
+    margin-top: 34px;
+    width: 225px;
+    height: 65px;
+    border: 2px solid white;
+    background-color: white;
+    border-radius: 50px;
+    font-size: 17px;
+    color: #5C2513;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn2{
+    margin-top: 34px;
+    width: 225px;
+    height: 65px;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    border-radius: 50px;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main_right{
+   margin-right: 40px;
+   position: absolute;
+   right: 0px;
+}
+
+.left{
+    height: 252px;
+    width: 290px;
+    background-color: #D39800;
+    border-radius: 50%;
+    filter: blur(100px);
+    position: absolute;
+    top: -350px;
+    left: 500px;
+    z-index: 100;
+}
+.top{
+    height: 252px;
+    width: 290px;
+    background-color: #D9D9D9;
+    filter: blur(115px);
+    border-radius: 50%;
+    position: absolute;
+    bottom: -210px;
+    right: -115px;
+    z-index: 100;
+}
